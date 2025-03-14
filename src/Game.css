@@ -20,6 +20,7 @@
       align-items: center;
       justify-content: center;
       gap: 2rem;
+      margin-inline: 5rem;
     }
   .userInput input{
       padding: 2rem;
@@ -27,7 +28,8 @@
       outline: none;
       border-radius: 0.2rem;
       background-color: papayawhip;
-      width: 70rem;
+      width: 100%;
+      
     }
   .form{
       display: flex;
