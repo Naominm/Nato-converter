@@ -1,0 +1,65 @@
+
+
+
+.main-content{
+    display: flex;
+    margin-block: 2rem;
+    margin-inline:1rem ;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    background-color:#f7f7f7;
+    padding-top: 3rem;
+    
+  }
+  
+  
+  .userInput{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+  .userInput input{
+      padding: 2rem;
+      border: none;
+      outline: none;
+      border-radius: 0.2rem;
+      background-color: papayawhip;
+      width: 70rem;
+    }
+  .form{
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+    }
+    .even-color {
+        font-size: 2.5rem;
+      color: var(--color-dark-brown); 
+      font-weight: bold;
+  }
+  
+  .odd-color {
+    font-size: 2.5rem;
+      color: var( --color-dark-beige); 
+      font-weight: bold;
+  }
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+   font-size: 4rem;
+   font-weight:800;
+  }
+  
+  .result-section{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+  }
+  .value P{
+    font-size: 2rem;
+  }
