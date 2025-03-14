@@ -1,0 +1,26 @@
+:root {
+  --color-dark-black: #131010;
+  --color-dark-brown: #543a14;
+  --color-dark-beige: #f0bb78;
+  --color-light-beige: #fff0dc;
+  --color-white: #ffff;
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Press Start 2P", system-ui;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1.6rem;
+  overflow-x: hidden;
+
+}
