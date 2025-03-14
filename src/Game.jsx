@@ -58,13 +58,8 @@ function Game(){
 <h2 className='value'>Nato Phonetic Equivalent is:</h2>
 <p></p>
 <p className='value'>
-    {ConvertedText.map((word, index) => (
-        <span 
-            key={index} 
-            className={index % 2 === 0 ? 'even-color' : 'odd-color'}
-        >
-            {word}{' '}
-        </span>
+    {ConvertedText.map((word, index) => ( <span  key={index}   className={index % 2 === 0 ? 'even-color' : 'odd-color'} >
+     {word}{' '} </span>
     ))}
 </p>
 
